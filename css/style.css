@@ -146,7 +146,22 @@ hr.light-100 {
 }
 .col-md-4 {
     max-width: 400px;
+}
+
+.card .btn {
+    background:blue;
+    color:white;
+}
+
+.card {
+    background:rgb(203, 249, 255);
 }--*/
+
+/*--- CARD AREA --*/
+.card .btn {
+    background:blue;
+    color:white;
+}
 
 /*--- FOOTER AREA --*/
 
@@ -237,6 +252,10 @@ hr.light-100 {
 /*--- BOOTSTRAP PADDING FIX --*/
 [class*="col-"] {
     padding: 1rem;
+}
+
+[class*="col-md-3"] {
+    display: flex;
 }
 
 /*
