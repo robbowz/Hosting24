@@ -45,6 +45,10 @@ html, body {
 .btn-outline-light {
     width: 160px;
 }
+.btn-outline-secondary{
+    text-align:center;
+}
+
 .btn-primary:hover {
     background-color: #251c58;
     border: 1px solid #251c58;
@@ -161,6 +165,11 @@ hr.light-100 {
 .card .btn {
     background:blue;
     color:white;
+    text-align: center;
+}
+
+.card h4 {
+font-size:30px;
 }
 
 /*--- FOOTER AREA --*/
